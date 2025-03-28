@@ -4,9 +4,6 @@ from const import OUTPUT_PATH, KITTI_PATH, RELATIVE_PATH_TO_VELODYNE
 from src.plot import convert_point_cloud_to_bev
 
 
-# KITTI_PATH=C:/Users/gil15/Documents/college/final project/KITTI_DATASET
-
-
 def process_directory(base_path, output_path):
     os.makedirs(output_path, exist_ok=True)
     label_output_path = os.path.join(output_path, "labels")
