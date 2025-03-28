@@ -1,0 +1,8 @@
+.venv
+venv
+__pycache__/
+.env
+kitti/
+.idea/
+output/
+tests/output/
